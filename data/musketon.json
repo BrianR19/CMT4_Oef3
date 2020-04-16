@@ -1,0 +1,84 @@
+{
+  "werken": [
+    {
+      "titel": "F",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van een skatebaan in de vorm van een F voor 36daysoftype.",
+      "thema": ["Illustratie /","F / ", "Skate"],
+      "Datum": "10 maart 2020",
+      "image": "/img/werk1.png"
+    },
+    {
+      "titel": "Netflix in the nineties",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van netflix in de jaren 90. Uit een serie van illustraties van de jaren 90.",
+      "thema": ["Illustratie /", "Nineties /", "Netflix"],
+      "Datum": "10 januari 20",
+      "image": "/img/werk2.png"
+    },
+    {
+      "titel": "Streaming wars",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie over Netflix dat een streaming wars houdt",
+      "thema": ["Illustratie /", "Netflix"],
+      "Datum": "28 januari 2020",
+      "image": "/img/werk3.png"
+    },
+    {
+      "titel": "Pornhub in the nineties",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van Pornhub in de jaren 90. Uit een serie van illustraties van de jaren 90.",
+      "thema": ["Illustratie /", "Nineties /", "Pornhub"],
+      "Datum": "28 november 2019",
+      "image": "/img/werk4.png"
+    },
+    {
+      "titel": "Airbnb in the nineties",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van Airbnb in de jaren 90. Uit een serie van illustraties van de jaren 90.",
+      "thema": ["Illustratie /", "Nineties /", "Airbnb"],
+      "Datum": "24 oktober 2019",
+      "image": "/img/werk5.png"
+    },
+    {
+      "titel": "Toilet in the nineties",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van een toilet uit de jaren 90. Uit een serie van illustraties van de jaren 90.",
+      "thema": ["Illustratie /", "Nineties /", "Toilet"],
+      "Datum": "11 november 2019",
+      "image": "/img/werk6.png"
+    },
+    {
+      "titel": "Uber in the nineties",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van Uber in de jaren 90. Uit een serie van illustraties van de jaren 90.",
+      "thema": ["Illustratie /", "Nineties /", "Uber"],
+      "Datum": "20 oktober 2019",
+      "image": "/img/werk7.png"
+    },
+    {
+      "titel": "Graveyard",
+      "artiest": "Musketon",
+      "beschrijving": "Een graveyard deck, deze kan je kopen in zijn webshop.",
+      "thema": ["Kaarten/", "Webshop"],
+      "Datum": "22 augustus 2019",
+      "image": "/img/werk8.png"
+    },
+    {
+      "titel": "Inside Nike Air Max",
+      "artiest": "Musketon",
+      "beschrijving": "Een illustratie van Nike Air Max en hoe deze er van binnen uitziet.",
+      "thema": ["Illustratie /", "Nike"],
+      "Datum": "24 december 2018",
+      "image": "/img/werk9.png"
+    },
+    {
+      "titel": "Mazda",
+      "artiest": "Musketon",
+      "beschrijving": "Een auto die Musketon heeft aangekleed met illustraties voor Mazda.",
+      "thema": ["Illustratie /", "Mazda /", "Auto" ],
+      "Datum": "14 september 2018",
+      "image": "/img/werk10.png"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Musea Musketon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <%- include("nav"); -%>
+
+    <div class="welkom">
+      <h2>Musea Musketon</h2>
+      <p>Welkom bij Musea Musketon, hier vind je verschillende werken van Musketon. Musketon is een artiest dat in België is geboren. Hij heeft zijn eigen stijl ontworpen die hem ondescheidt van andere artiesten. We zetten enkele van zijn werken in de kijker.</p>
+    </div>
+
+    <script>
+
+
+      <% function randomgetal(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min;}%>
+
+
+      <%var i = randomgetal(0,10); %>
+
+
+
+      </script>
+
+    <div class="kijker">
+      <h2> In de kijker</h2>
+      <img src="<%= works[i].image %>" alt="">
+      <h3><%=works[i].titel%></h3>
+      <p><%= works[i].beschrijving%></p>
+    </div>
+
+    <%- include("footer"); -%>
+
+
+
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

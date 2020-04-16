@@ -1,0 +1,158 @@
+
+body {
+  background-color: #1a1c1a;
+}
+
+nav {
+  background-color: #131413;
+  height: 10rem;
+  width: 100vw;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  z-index: 999;
+}
+
+.menu:hover {
+  background-color: #3ce83c;
+  color: #131413;
+  padding: 0 .3rem;
+}
+
+.ulnav {
+  position: relative;
+  top: -1rem;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+ .menu{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3ce83c;
+  text-decoration: none;
+  margin-right: 2.3rem;
+
+}
+
+
+
+
+
+
+
+p  {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 2rem;
+  color: #3ce83c;
+}
+
+img {
+width: 80vw;
+display: block;
+margin: 0 auto;
+}
+
+.space{
+  margin: 5rem 0;
+
+}
+
+.art {
+  margin: 6.5rem 0;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+b {
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #3ce83c;
+  font-size: .8rem;
+}
+
+.tleft, .bleft, .thleft, .dleft{
+  text-align: left;
+  margin-left: 10vw;
+  margin-bottom: -.7rem;
+}
+
+.tekstl, .tekstr {
+  width: 94vw;
+}
+
+
+
+.adres {
+
+  margin-bottom: 5rem;
+  text-align: center ;
+  color: #131413;
+}
+
+.info {
+
+  color: #131413;
+  width: 80vw;
+  margin: 0 auto;
+  padding-top:  1rem;
+}
+
+
+.green{
+  background-color: #3ce83c;
+}
+
+.detail {
+  color: #3ce83c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: .1rem solid #3ce83c;
+  position: absolute;
+  left: 20vw;
+  margin-top: 4rem;
+}
+
+
+
+.detail:hover {
+  background-color: #3ce83c;
+  color: #131413;
+}
+
+.black {
+  color: #131413;
+  margin-top: 10rem;
+}
+
+.date {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #3ce83c;
+  text-align: left;
+  margin-left: 10vw;
+  margin-bottom: -.7rem;
+  position: relative;
+  top: 2rem;
+
+}
+
+.titel {
+  font-size: 2rem;
+
+}

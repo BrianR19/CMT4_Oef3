@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Musea Musketon - Werk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body class="green">
+    <%- include("nav"); -%>
+
+    <div class="space">
+      <p>space</p>
+    </div>
+
+    <article class="art">
+      <img src="<%=work.image%>" alt="">
+      <h1 class= "bh1"><%=work.titel %></h1>
+      <p class="bes" ><%=work.beschrijving %></p>
+      <% for(let t=0; t<work.thema.length; t++) { %>
+        <span><%=work.thema[t]%></span>
+      <% } // end forloop %>
+      <date class="date2"><%=work.Datum %></date>
+      <address class="author"><%=work.artiest %></address>
+    </article>
+
+    <a class="terug" href="/werk">Terug</a>
+
+    <%- include("footer"); -%>
+
+  </body>
+</html>

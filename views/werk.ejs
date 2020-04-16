@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Musea Musketon - Werk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <%- include("nav"); -%>
+
+    <div class="space">
+      <p>space</p>
+    </div>
+
+    <% for (let i=0; i<works.length; i++) { %>
+      <section>
+        <%- include('blogpost', {work: works[i], index: i}); -%>
+      </section>
+    <% }%>
+
+    <%- include("footer"); -%>
+
+  </body>
+</html>
