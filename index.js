@@ -1,5 +1,5 @@
 // npm init
-const port = 5000;
+
 
 // mogelijkheden module express aan de variabelen express koppelen
 let express = require('express');
@@ -69,5 +69,3 @@ app.use(function(request, response){
 // webserver laten draaien
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'));
-  // function(){console.log('luister op poort: ' + port);
-});
